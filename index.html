@@ -3,32 +3,27 @@
     <head>
             <meta charset="UTF-8">
             <title>Teu futuro</title>
+
+            <link rel="stylesheet" href="reset.css">
+            <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-
-
-
-
-
-
         <main>
             <form>
-                <label for="nomecompleto">Nome completo</label>
                 
-                <label for="email">Email</label>
+                <input type="text" id="nomecompleto" class="input-padrao" required placeholder="Nome Completo">
+               
+                <input type="email" id="email" class="input-padrao" required placeholder="E-mail">
                 
-                <label for="telefone">Telefone </label>
-                
-                <label for="mensagem">Mensagem</label>
+                <input for="tel" id="telefone" class="input-padrao" required placeholder="Número">
 
+                <textarea class="input-padrao" cols= "70" rows="10" id="mensagem" required placeholder="Mensagem"></textarea>
 
+                <label class="checkbox"><input type="checkbox" checked>Gostaria de receber novidades do projeto por email?</label>
 
+                <input type="submit" value="enviar formulário" class="enviar">
             </form>
         </main>
-
-
-
     </body>
-        
 </html>

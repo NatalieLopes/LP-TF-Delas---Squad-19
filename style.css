@@ -1,0 +1,40 @@
+main {
+    width:  940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+.input-padrao {
+    display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+    font-size: 13px;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+    margin: 20px 0;
+    display: block;
+    width:40%;
+	padding: 15px 0;
+    font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+    background-color: violet;
+    color: whitesmoke;
+    transition: 1.5s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+    background-color: purple;
+    transform: scale(1.0);
+}
