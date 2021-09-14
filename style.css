@@ -73,6 +73,7 @@ form {
 
 .input-padrao {
     display: block;
+    border-radius: 10px;
 	margin: 0 0 20px;
 	padding: 10px 25px;
 	width: 50%;
@@ -91,14 +92,28 @@ form {
     font-weight: bold;
 	font-size: 18px;
 	border: none;
-	border-radius: 5px;
-    background-color: violet;
+	border-radius: 100px;
+    background-color: #f6d000;
     color: whitesmoke;
     transition: 1.5s all;
 	cursor: pointer;
+    
 }
 
 .enviar:hover {
     background-color: purple;
     transform: scale(1.0);
+    transform: scale(1.1);
+}
+
+footer {
+    text-align: center;
+    background-color: #5F56AF;
+    padding: 40px;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
 }
