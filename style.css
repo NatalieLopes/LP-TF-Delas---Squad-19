@@ -3,6 +3,12 @@ header {
     padding: 10px 0 10px 0;
 }
 
+p{
+    font-size: 22px;
+    margin: 35px 0;
+    text-align: center;
+}
+
 .cabecalho {
     position: relative;
     width: 940px;
@@ -25,19 +31,29 @@ main {
     margin: 0 auto;
 }
 
-.surgimos, .h2-equipe{
-    font-size: 22px;
+.surgimos, .h2-equipe, .formulario{
+    font-size: 45px;
     font-weight: bold;
     text-align: center;
     color: #FF69B4;
+    margin: 10px;
 }
 
-.h2-equipe{
-    clear: left;
+.teufuturoimagem{
+    float: right;
+    width: 45%;
+    height: 225px;
+    margin: 20px;
+}
+
+.porque{
+    clear: right;
+    text-align: center;
+    margin: 15px;
+    font-size: 22px;
 }
 
 iframe{
-    float: left;
     margin: 20px;
 }
 
@@ -55,16 +71,22 @@ iframe{
     border: 2px solid #000000;
     border-radius: 10px;
     margin: 20px 15px;
-    background-color: purple;
+    background-color: #5F56AF;
 }
 
 .depoimento-nome{
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .depoimento-descricao{
-    font-size: 16px;
+    font-size: 22px;
     margin: 10px 0 0;
+    color: white;
+}
+
+.equipe-imagem{
+    width: 40%;
+    height: 225px;
 }
 
 form {
