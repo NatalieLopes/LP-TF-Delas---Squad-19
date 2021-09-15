@@ -1,7 +1,131 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    background: #5F56AF;
+    padding: 10px 0 10px 0;
+}
+
+p{
+    font-size: 22px;
+    margin: 35px 0;
+    text-align: center;
+}
+
+.cabecalho {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+h1 {
+    display: inline-block;
+    text-align: center;
+    width: 60%;
+    font-size: 53px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+
 main {
     width:  940px;
     margin: 0 auto;
 }
+
+.surgimos, .h2-equipe, .formulario, .programadores, .depoimentos-titulo{
+    font-size: 45px;
+    font-weight: bold;
+    text-align: left;
+    color: #FF69B4;
+    margin: 10px;
+}
+
+.teufuturoimagem{
+    float: right;
+    width: 45%;
+    height: 225px;
+    margin: 20px;
+}
+
+.porque{
+    clear: right;
+    text-align: center;
+    margin: 15px;
+    font-size: 22px;
+}
+
+iframe{
+    margin: 20px;
+}
+
+.explicacao{
+    margin: 20px;
+}
+
+.equipe li{
+    display: inline; 
+}
+
+.equipe-imagem{
+    display: inline-block;
+    width: 40%;
+}
+
+.depoimentos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.depoimentos-caixa li {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin: 0 1.5%;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    margin: 20px 15px;
+    background-color: #5F56AF;
+}
+
+.depoimento-nome{
+    font-size: 18px;
+    color: white;
+    text-align: right;
+    font-style: italic;
+}
+
+.depoimento-descricao{
+    font-size: 17px;
+    margin: 10px 0 0;
+    color: white;
+    font-style: italic;
+}
+
+.equipe-imagem{
+    width: 40%;
+    height: 225px;
+}
+
+.foto-time{
+    width: 30%;
+    height: 150;
+    margin: 10px;
+}
+
+.time-nome, .time-contato{
+    width: 30%;
+    margin: 0 10px;
+}
+
+.formulario{
+    margin: 20px;
+}
+
 
 form {
     margin: 40px 0;
@@ -9,6 +133,7 @@ form {
 
 .input-padrao {
     display: block;
+    border-radius: 10px;
 	margin: 0 0 20px;
 	padding: 10px 25px;
 	width: 50%;
@@ -27,14 +152,28 @@ form {
     font-weight: bold;
 	font-size: 18px;
 	border: none;
-	border-radius: 5px;
-    background-color: violet;
+	border-radius: 100px;
+    background-color: #f6d000;
     color: whitesmoke;
     transition: 1.5s all;
 	cursor: pointer;
+    
 }
 
 .enviar:hover {
-    background-color: #D405FF;
+    background-color: purple;
     transform: scale(1.0);
+    transform: scale(1.1);
+}
+
+footer {
+    text-align: center;
+    background-color: #5F56AF;
+    padding: 40px;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
 }
