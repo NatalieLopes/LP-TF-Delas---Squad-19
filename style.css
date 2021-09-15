@@ -34,10 +34,10 @@ main {
     margin: 0 auto;
 }
 
-.surgimos, .h2-equipe, .formulario, .programadores{
+.surgimos, .h2-equipe, .formulario, .programadores, .depoimentos-titulo{
     font-size: 45px;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     color: #FF69B4;
     margin: 10px;
 }
@@ -73,6 +73,12 @@ iframe{
     width: 40%;
 }
 
+.depoimentos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
 .depoimentos-caixa li {
     display: inline-block;
     text-align: center;
@@ -87,13 +93,17 @@ iframe{
 }
 
 .depoimento-nome{
-    font-size: 22px;
+    font-size: 18px;
+    color: white;
+    text-align: right;
+    font-style: italic;
 }
 
 .depoimento-descricao{
-    font-size: 22px;
+    font-size: 17px;
     margin: 10px 0 0;
     color: white;
+    font-style: italic;
 }
 
 .equipe-imagem{
