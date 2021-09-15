@@ -1,3 +1,7 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
 header {
     background: #5F56AF;
     padding: 10px 0 10px 0;
@@ -30,7 +34,7 @@ main {
     margin: 0 auto;
 }
 
-.surgimos, .h2-equipe, .formulario{
+.surgimos, .h2-equipe, .formulario, .programadores{
     font-size: 45px;
     font-weight: bold;
     text-align: center;
@@ -90,6 +94,26 @@ iframe{
     font-size: 22px;
     margin: 10px 0 0;
     color: white;
+}
+
+.equipe-imagem{
+    width: 40%;
+    height: 225px;
+}
+
+.foto-time{
+    width: 30%;
+    height: 150;
+    margin: 10px;
+}
+
+.time-nome, .time-contato{
+    width: 30%;
+    margin: 0 10px;
+}
+
+.formulario{
+    margin: 20px;
 }
 
 
