@@ -9,8 +9,31 @@ header {
 
 p{
     font-size: 22px;
-    margin: 35px 0;
+    margin: 20px 6;
     text-align: center;
+    font-weight: bold
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav ul {   
+ right: 0px;
+ position: absolute;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+section{
+    padding-top: 3rem;
 }
 
 .cabecalho {
@@ -34,7 +57,31 @@ main {
     margin: 0 auto;
 }
 
-.surgimos, .h2-equipe, .formulario, .programadores, .depoimentos-titulo{
+.surgimos{
+    position: absolute;
+    top: 350px;
+    left: 155px;
+    font-size: 45px;
+    font-weight: bolder;
+    color: #FF69B4;
+
+    
+
+}
+
+.h2-equipe{
+
+ left: 280px;
+ font-size: 45px;
+ font-weight: bold;
+ text-align: left;
+ color: #FF69B4;
+ margin: 10px;
+
+}
+
+
+.formulario, .depoimentos-titulo{
     font-size: 45px;
     font-weight: bold;
     text-align: left;
@@ -68,9 +115,16 @@ iframe{
     display: inline; 
 }
 
-.equipe-imagem{
+.equipe-imagem{  
+    margin: 5px;
     display: inline-block;
     width: 40%;
+}
+
+.depoimentos-titulo{
+    position: absolute;
+    top: 1960px;
+    left: 280px;
 }
 
 .depoimentos{
@@ -108,18 +162,22 @@ iframe{
 
 .equipe-imagem{
     width: 40%;
-    height: 225px;
+    height: 220px;
 }
 
 .foto-time{
-    width: 30%;
+    width: 20%;
     height: 150;
-    margin: 10px;
+    margin: 5px;
 }
 
-.time-nome, .time-contato{
-    width: 30%;
-    margin: 0 10px;
+.time-contato{
+    font-size: 15px;
+    width: 5%;
+    margin: 0 4px;
+    font-style: italic;
+
+
 }
 
 .formulario{
@@ -176,4 +234,39 @@ footer {
     color: #FFFFFF;
     font-size: 13px;
     margin: 20px 0 0;
+}
+
+.programadores li {
+    text-align: star;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    border: 3px solid #000000;
+    border-radius: 20px;
+}
+
+.programadores li:hover {
+    border-color: #FF69B4;
+}
+
+.programadores li:active {
+    border-color: #993399;  
+}
+
+.programadores li:hover h4 {
+    font-size: 30px;
+}
+
+
+.time-contato {
+  font-size: 20px;
+    text-align: center;
+}
+
+.nome {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #FF69B4;
 }
