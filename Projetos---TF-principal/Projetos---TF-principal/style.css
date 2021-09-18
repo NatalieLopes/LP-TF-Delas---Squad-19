@@ -1,0 +1,284 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    background: #5F56AF;
+    padding: 10px 0 10px 0;
+}
+
+p{
+    font-size: 22px;
+    margin: 20px 6;
+    text-align: center;
+    font-weight: bold
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+ /* nav {  O href não funciona quando o texto do cabeçalho é posicionado 
+ position: relative;
+ top: 340px;
+ left: 450px;
+} */
+
+
+nav ul { 
+ display: inline-flex;
+ 
+}
+
+
+nav ul li a{ 
+ padding-bottom:15px ;
+ padding-top: 15px;  
+ margin: 15px;
+ text-decoration: none;
+ color: #FFFFFF;
+ font-size: 15px;
+ font-weight: bold;
+    
+}
+
+
+
+section{
+    padding-top: 3rem;
+}
+
+.cabecalho {
+
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-style: italic;
+    display: inline-block;
+    text-align: center;
+    width: 60%;
+    font-size: 53px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+
+main {
+    width:  940px;
+    margin: 0 auto;
+}
+
+.surgimos{
+    position: absolute;
+    top: 450px;
+    left: 155px;
+    font-size: 45px;
+    font-weight: bolder;
+    color: #FF69B4;
+}
+
+.participacao{
+ font-weight: bolder;
+ position: absolute;
+ top: 1640px;
+ left: 700px;
+ font-style: italic;
+ 
+ display: inline-block; 
+ float: right;
+}
+
+
+.h2-equipe{
+
+ left: 280px;
+ font-size: 45px;
+ font-weight: bold;
+ text-align: left;
+ color: #FF69B4;
+ margin: 10px;
+
+}
+
+
+.formulario, .depoimentos-titulo{
+    font-size: 45px;
+    font-weight: bold;
+    text-align: left;
+    color: #FF69B4;
+    margin: 10px;
+}
+
+.teufuturoimagem{
+    float: right;
+    width: 45%;
+    height: 225px;
+    margin: 20px;
+}
+
+.porque{
+    clear: right;
+    text-align: center;
+    margin: 15px;
+    font-size: 22px;
+}
+
+iframe{
+    margin: 20px;
+}
+
+.explicacao{
+    margin: 20px;
+}
+
+
+.depoimentos-titulo{
+    position: absolute;
+    top: 1900px;
+    left: 280px;
+}
+
+.depoimentos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.depoimentos-caixa li {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin: 0 1.5%;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    margin: 20px 15px;
+    background-color: #5F56AF;
+}
+
+.depoimento-nome{
+    font-size: 18px;
+    color: white;
+    text-align: right;
+    font-style: italic;
+}
+
+.depoimento-descricao{
+    font-size: 17px;
+    margin: 10px 0 0;
+    color: white;
+    font-style: italic;
+}
+
+
+
+.foto-time{
+    width: 20%;
+    height: 150;
+    margin: 5px;
+}
+
+.time-contato{
+    font-size: 15px;
+    width: 5%;
+    margin: 0 4px;
+    font-style: italic;
+
+
+}
+
+.formulario{
+    margin: 20px;
+}
+
+
+form {
+    margin: 40px 0;
+}
+
+.input-padrao {
+    display: block;
+    border-radius: 10px;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+    font-size: 13px;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+    margin: 20px 0;
+    display: block;
+    width:40%;
+	padding: 15px 0;
+    font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 100px;
+    background-color: #f6d000;
+    color: whitesmoke;
+    transition: 1.5s all;
+	cursor: pointer;
+    
+}
+
+.enviar:hover {
+    background-color: purple;
+    transform: scale(1.0);
+    transform: scale(1.1);
+}
+
+footer {
+    text-align: center;
+    background-color: #5F56AF;
+    padding: 40px;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+.programadores li {
+    text-align: star;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    border: 3px solid #000000;
+    border-radius: 20px;
+}
+
+.programadores li:hover {
+    border-color: #FF69B4;
+}
+
+.programadores li:active {
+    border-color: #993399;  
+}
+
+.programadores li:hover h4 {
+    font-size: 30px;
+}
+
+
+.time-contato {
+  font-size: 20px;
+    text-align: center;
+}
+
+.nome {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #FF69B4;
+}
