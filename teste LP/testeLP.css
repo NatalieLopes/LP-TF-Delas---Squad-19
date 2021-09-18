@@ -1,0 +1,47 @@
+.squad{
+    display: inline-block; 
+}
+
+.scroll{
+    padding-left: 50px;
+    width: 70%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 550px;
+    white-space: nowrap;
+    text-align: center;  
+    margin-top: 100px;
+    margin-left: 200px;  
+}
+
+.foto-time {
+    width: 300px;
+    height: 400px;
+    margin-right: 50px;
+}
+.time-contato {
+    text-align: left;
+}
+
+.equipe {
+    display: inline-block;
+}
+
+.scroll-equipe {
+    padding-left: 50px;
+    width: 70%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    text-align: center;
+    height: 600px;
+    margin-top: 100px;
+    margin-left: 200px;
+
+}
+
+.foto-equipe {
+    width: 300px;
+    height: 400px;
+    margin-right: 80px;
+}
