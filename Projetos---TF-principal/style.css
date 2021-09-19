@@ -1,5 +1,6 @@
 body{
     font-family: 'Ubuntu', sans-serif;
+    
 }
 
 header {
@@ -14,13 +15,43 @@ p{
     font-weight: bold
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+
+nav ul { 
+ text-align: center;
+ display: flex;
+ position: relative;
+ width: 940px;
+ margin: 0 0 0 150px ;  
+}
+
+nav ul li a{ 
+ padding: 0 15px 10px 12px;
+ text-decoration: none;
+ color: #FFFFFF;
+ font-size: 24px;
+ font-weight: bold;
+ font-style: italic;
+ }
+
+
+
+section{
+    padding-top: 3rem;
+}
+
 .cabecalho {
+
     position: relative;
     width: 940px;
     margin: 0 auto;
 }
 
 h1 {
+    font-style: italic;
     display: inline-block;
     text-align: center;
     width: 60%;
@@ -37,15 +68,24 @@ main {
 
 .surgimos{
     position: absolute;
-    top: 350px;
+    top: 450px;
     left: 155px;
     font-size: 45px;
     font-weight: bolder;
     color: #FF69B4;
-
-    
-
 }
+
+.participacao{
+ font-weight: bolder;
+ position: absolute;
+ top: 1640px;
+ left: 700px;
+ font-style: italic;
+ 
+ display: inline-block; 
+ float: right;
+}
+
 
 .h2-equipe{
 
@@ -89,19 +129,10 @@ iframe{
     margin: 20px;
 }
 
-.equipe li{
-    display: inline; 
-}
-
-.equipe-imagem{  
-    margin: 5px;
-    display: inline-block;
-    width: 40%;
-}
 
 .depoimentos-titulo{
     position: absolute;
-    top: 1960px;
+    top: 1900px;
     left: 280px;
 }
 
@@ -138,10 +169,7 @@ iframe{
     font-style: italic;
 }
 
-.equipe-imagem{
-    width: 40%;
-    height: 220px;
-}
+
 
 .foto-time{
     width: 20%;
