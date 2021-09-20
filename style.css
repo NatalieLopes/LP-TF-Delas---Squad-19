@@ -23,9 +23,10 @@ html{
 nav ul { 
  text-align: center;
  display: flex;
- position: relative;
+ position: fixed;
  width: 940px;
- margin: 0 0 0 150px ;  
+ margin: 0 0 0 220px;
+ background-color:  #5F56AF; 
 }
 
 nav ul li a{ 
@@ -35,6 +36,8 @@ nav ul li a{
  font-size: 24px;
  font-weight: bold;
  font-style: italic;
+ padding-top: 2rem;
+
  }
 
 
@@ -45,7 +48,6 @@ section{
 
 .cabecalho {
 
-    position: relative;
     width: 940px;
     margin: 0 auto;
 }
@@ -137,6 +139,7 @@ iframe{
 
 
 .depoimentos-titulo{
+    padding-top: 2rem;
     position: absolute;
     top: 1900px;
     left: 280px;
@@ -157,8 +160,14 @@ iframe{
     box-sizing: border-box;
     border: 2px solid #000000;
     border-radius: 10px;
-    margin: 20px 15px;
+    margin: 35px 15px;
     background-color: #5F56AF;
+}
+
+button{
+    
+    font-weight: bolder;
+    color: #FF69B4;
 }
 
 .depoimento-nome{
@@ -193,6 +202,7 @@ iframe{
 }
 
 .formulario{
+    padding-top: 2rem;
     margin: 20px;
 }
 
