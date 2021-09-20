@@ -6,7 +6,10 @@ body{
 header {
     background: #5F56AF;
     padding: 10px 0 10px 0;
+    
 }
+
+
 
 p{
     font-size: 22px;
@@ -19,40 +22,39 @@ html{
     scroll-behavior: smooth;
 }
 
-
 nav ul { 
- text-align: center;
+ left: 0;             
+ right:0;            
+ position:fixed;
+ overflow-y:hidden; 
+ overflow-x:auto;
  display: flex;
- position: fixed;
- width: 940px;
- margin: 0 0 0 220px;
+ margin: -10px 0 0 ;
  background-color:  #5F56AF; 
 }
 
 nav ul li a{ 
- padding: 0 15px 10px 12px;
+ text-shadow: 4px 4px 10px black;
+ padding: 0 30px 20px 6px;
  text-decoration: none;
  color: #FFFFFF;
- font-size: 24px;
+ font-size: 30px;
  font-weight: bold;
  font-style: italic;
- padding-top: 2rem;
-
  }
-
-
 
 section{
     padding-top: 3rem;
 }
 
 .cabecalho {
-
     width: 940px;
     margin: 0 auto;
 }
 
 h1 {
+    
+    text-shadow: 4px 4px 10px black;
     font-style: italic;
     display: inline-block;
     text-align: center;
@@ -69,39 +71,38 @@ main {
 }
 
 .surgimos{
-    position: absolute;
-    top: 450px;
-    left: 155px;
-    font-size: 45px;
-    font-weight: bolder;
-    color: #FF69B4;
+ text-shadow: 4px 4px 2px black;
+ margin: 0 10%;
+ font-size: 45px;
+ font-weight: bolder;
+ color: #FF69B4;
 }
 
 .participacao{
+
  font-weight: bolder;
- position: absolute;
- top: 1640px;
- left: 700px;
+ margin: 8% 0 0 55%;
  font-style: italic;
- 
  display: inline-block; 
  float: right;
 }
 
 
 .h2-equipe{
-
+ text-shadow: 4px 4px 2px black;
+ margin: 0 1% ;
  left: 280px;
  font-size: 45px;
  font-weight: bold;
  text-align: left;
  color: #FF69B4;
- margin: 10px;
+
 
 }
 
 
 .formulario, .depoimentos-titulo{
+    text-shadow: 4px 4px 2px black;
     font-size: 45px;
     font-weight: bold;
     text-align: left;
@@ -114,6 +115,8 @@ main {
 #mais1{display: none}
 
 #mais2{display: none}
+
+#mais3{display: none}
 
 .teufuturoimagem{
     float: right;
@@ -138,11 +141,12 @@ iframe{
 }
 
 
-.depoimentos-titulo{
+ .depoimentos-titulo{
+  text-shadow: 4px 4px 2px black;
+    margin: 0 19%;
     padding-top: 2rem;
-    position: absolute;
-    top: 1900px;
-    left: 280px;
+    position: center;
+    
 }
 
 .depoimentos{
@@ -287,6 +291,7 @@ footer {
 }
 
 .nome {
+    text-shadow: 4px 4px 20px black;
     text-align: center;
     font-size: 25px;
     font-weight: bold;

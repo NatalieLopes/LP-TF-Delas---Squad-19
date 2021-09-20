@@ -48,3 +48,22 @@ function leiaMais2(){
 		btnLeiaMais2.innerHTML="Leia Menos";
 	}
 }
+
+
+
+function leiaMais3(){
+	var pontos3 = document.getElementById("pontos3");
+	var maisTexto3 = document.getElementById("mais3");
+	var btnLeiaMais3 = document.getElementById("btnLeiaMais3");
+
+	if(pontos3.style.display === "none"){
+		pontos3.style.display = "inline";
+		maisTexto3.style.display = "none";
+		btnLeiaMais3.innerHTML="Leia Mais";
+	}else{
+		pontos3.style.display = "none";
+		maisTexto3.style.display = "inline";
+		btnLeiaMais3.innerHTML="Leia Menos";
+	}
+}
+
