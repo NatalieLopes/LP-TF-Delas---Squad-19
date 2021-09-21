@@ -9,100 +9,192 @@
             <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
             <link rel="stylesheet" href="reset.css">
             <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="styleEquipe.css">
+            <script type="text/javascript" src="scripts.js"></script>
+
     </head>
 
     <body>
         <header>
-            <section class="cabecalho">
+
+             <nav>
+                <ul>
+
+                    <li ><a href="#inicio"> Início</a></li>
+                    
+                    <li><a href="#surgimos"> Como surgimos? </a></li>
+
+                    <li><a href="#formulario">Colabore</a></li>
+                    
+                    <li ><a href="#equipe">Equipe</a></li>               
+                    <li ><a href="#depoimentos">Depoimentos</a></li>
+                    
+                    <li><a href="#programadores">Programadores</a></li> 
+                </ul>
+            </nav>
+           
+            <section id="inicio" class="cabecalho">
+
                 <img src="teufuturodelas-transparente.png">
                 <h1>Invista naquilo que faz a diferença.<br>Invista no futuro.<br><br><br></h1>
             </section>
+
+
+
         </header>
 
         <main>
-            <section>
+            <section id="surgimos">
                 <h2 class="surgimos">Como surgimos?</h2>
 
                 <img src="teu-futuro-1.jpeg" class="teufuturoimagem" alt="foto da turma em aula">
 
+            
+                <br><br><br><br><br><br>
+
                 <p>A iniciativa #TeuFuturo Delas  é uma ramificação do #Teu Futuro que oferece formação técnica e comportamental, conectando estudantes de ensino médio com vagas de estágio ou primeiro emprego em empresas que demandam profissionais da área da TI.</p>
 
-                <p>O teu futuro delas tem como objetivo promover iniciativas que mudem o cenário atual de desigualdade
-                na área da ciências da computação trazendo mais mulheres para o mercado de trabalho.</p> 
- 
-
+                <br><br>
+                
+            
+                <p>O teu futuro delas tem como objetivo
+                 promover iniciativas que mudem o cenário atual de desigualdade na área da ciências da computação trazendo mais mulheres para o mercado de trabalho.</p> 
+                
+                <br><br>
+               
                 <p class="porque">Há um déficit de mão de obra feminina na área da tecnologia de informação. No Brasil, o dado oficial mais recente é do Censo de 2010, quando o IBGE apurou que 520 mil pessoas atuavam no setor de TI, sendo que as mulheres representavam um quarto do total. Além disso, de acordo com a Sociedade Brasileira de Computação, apenas 15% dos estudantes de cursos de Ciência da Computação são mulheres e 79% das estudantes desistem da área no primeiro ano. Logo, surgiu a necessidade de criar um espaço de incentivo só #delas.</p>
                 
                   <iframe width="100%" height="450" src="https://www.youtube.com/embed/eYWu3QRGRW4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </section>
 
-            <section>
+            <section id="equipe">
                 <h2 class="h2-equipe">Conheça quem está por trás do projeto:</h2>
                 <br>
-                <p>A equipe do #Teu Futuro Delas conta com a participação de exelentes profissionais, como:</p>
-                <ul class="equipe">
-                <li>
-                    <img src="treici-equipe.png" class="equipe-imagem" alt="Foto de Treici Freitas">
-                </li>
-                <li>
-                    <img src="afonso-equipe.png" class="equipe-imagem" alt="Foto de Afonso Acauan">
-                </li>
-                <li>
-                    <img src="amilton-equipe.png" class="equipe-imagem" alt="Foto de Amilton Martins">
-                </li>
-                <li>
-                    <img src="isaura-equipe.png" class="equipe-imagem" alt="Foto de Isaura Koch">
-                </li>
+                <p class= "participacao">
+                A equipe do #Teu Futuro Delas conta com a participação <br>
+                de exelentes profissionais. 
+                Conta também com professores <br>qualificados como o programador Fernando Posser <br> e a psicóloga Eduarda Valduga Donadel e os estagiários <br> Gabriela Favero e Reinaldo Cerqueira.
 
-                <p>O programa conta também com professores qualificados como o programador Fernando Posser e a psicóloga Eduarda Valduga Donadel e os estagiários Gabriela Favero e Reinaldo Cerqueira.</p>
+            </p>
+                <ul class="slider">
+                    <li> 
+                        <input type="radio" id="slide1" name="slide" checked>
+                        <label for="slide1"></label>
+                        <img src="treici-equipe.png" > 
+                    </li>
+                    <li>
+                        <input type="radio" id="slide2" name="slide">
+                        <label for="slide2"></label>
+                        <img src="afonso-equipe.png" > 
+                    </li>
+                    <li>
+                        <input type="radio" id="slide3" name="slide">
+                         <label for="slide3"></label>
+                        <img src="amilton-equipe.png" >
+                    </li>
+                    <li>
+                        <input type="radio" id="slide4" name="slide">
+                        <label for="slide4"></label>
+                        <img src="isaura-equipe.png" >
+                    </li>
+                </ul>    
             </section>
 
-            <section class="depoimentos">
+            <section id="depoimentos"  class="depoimentos">
                 <h3 class="depoimentos-titulo">O que dizem sobre o projeto:</h3>
 
             	<ul class="depoimentos-caixa">
                     <li>
-                        <img scr="">
-                        <p class="depoimento-descricao">"O TeuFuturo Delas é uma iniciativa fundamental para trazer mais igualdade nas relações de gênero dentro da  computação. O mais bonito desta iniciativa é que ela foi proposta por uma embaixadora do TeuFuturo, ex estudante do ano de 2019. Esta especificidade faz toda diferença pois mostra a força do projeto TeuFuturo, que permite que os próprios jovens participem da expansão do projeto, trazendo novas direções como esta que apesar de ser um dos fundamentos do projeto não tinha tido tanta organização e propostas como agora após a embaixadora Isaura Koch assumir este desenvolvimento. Para que tenhamos igualdade entre gêneros na computação precisamos que mais projetos nesta vertente sejam criados."</p>
-                        <p class="depoimento-nome">- Hairlaine Treici Freitas</p>
+                         <p class="depoimento-descricao">"O TeuFuturo Delas é uma iniciativa fundamental para trazer mais igualdade nas relações de gênero dentro da  computação. O mais bonito desta iniciativa é <span id = "pontos">...</span><span id = "mais">que ela foi proposta por uma embaixadora do TeuFuturo, ex estudante do ano de 2019. Esta especificidade faz toda diferença pois mostra a força do projeto TeuFuturo, que permite que os próprios jovens participem da expansão do projeto, trazendo novas direções como esta que apesar de ser um dos fundamentos do projeto não tinha tido tanta organização e propostas como agora após a embaixadora Isaura Koch assumir este desenvolvimento. Para que tenhamos igualdade entre gêneros na computação precisamos que mais projetos nesta vertente sejam criados."</span></p>
+
+                       <p class="depoimento-nome">- Hairlaine Treici Freitas</p>
+        
+                        <button onclick="leiaMais()" id="btnLeiaMais">Leia Mais</button>
                     </li>
-                    <li>
-                        <img scr="">
-                        <p class="depoimento-descricao">"O #TeuFuturo é um lugar incrível aonde podemos nos desenvolver e aprender, mas o melhor de tudo, nos divertimos muito enquanto fazemos isso. É um momento de união em busca de um objetivo em comum, e nisso entra o #TeuFuturo delas, que nos possibilita unir ainda mais as gurias nessa incrível área da programação. Todos juntos nessa luta é o mais importante"</p>
-                        <p class="depoimento-nome">- Eduarda Donadel</p>
-                    </li>
-                    <li>
-                        <img scr="">
-                        <p class="depoimento-descricao">"Hoje presenciamos um cenário com participação baixíssima de mulheres na tecnologia, tendo em vista que, apenas 15% dos estudantes de cursos de Ciência da Computação são mulheres (Sociedade Brasileira de Computação) e 20% dos profissionais que atuam no mercado de TI são mulheres (IBGE). O #TeuFuturo Delas é importante neste contexto, para ofertar um ambiente seguro de  troca, e para munir meninas de ferramentas, como as bolsas de estudo, para que elas iniciem e continuem com a carreira tecnológica, promovendo assim a participação feminina na TI. <br> Além de promover conversas que propiciam melhoria nos ambientes acadêmicos e empresariais para receber essa diversidade de estudantes. A diversidade também é importante para as empresas, as companhias com maior diversidade de gênero têm 21% mais chances de apresentar resultados acima da média do mercado do que as empresas com menor diversidade do grupo. <br> Sobre a minha experiência com o #TeuFuturo: Eu participei do #TeuFuturo no ano de 2018, e durante o programa, muito além do técnico pude desenvolver habilidades humanas: comunicação, empatia, liderança, tudo isso em conjunto com a imersão no dia a dia do profissional de TI, que o #TeuFuturo possibilitou, através de visitas a empresas, eventos acadêmicos e projetos práticos. Todos estes aspectos foram essenciais para meu desenvolvimento profissional. <br> Além disso, foi em um evento disponibilizado pelo #TeuFuturo com a IMED e empresas parceiras, que tive meu primeiro contato com o mercado de trabalho, e, posteriormente iniciei minha carreira em uma das empresas participantes do evento. Também foi graças ao programa que consegui ingressar na graduação através de uma bolsa parcial."</p>
+                     <li>
+                        <p class="depoimento-descricao">"Hoje presenciamos um cenário com participação baixíssima de mulheres na tecnologia, tendo em vista que,<span id = "pontos1">...</span><span id = "mais1"> apenas 15% dos estudantes de cursos de Ciência da Computação são mulheres (Sociedade Brasileira de Computação) e 20% dos profissionais que atuam no mercado de TI são mulheres (IBGE). O #TeuFuturo Delas é importante neste contexto, para ofertar um ambiente seguro de  troca, e para munir meninas de ferramentas, como as bolsas de estudo, para que elas iniciem e continuem com a carreira tecnológica, promovendo assim a participação feminina na TI. <br> Além de promover conversas que propiciam melhoria nos ambientes acadêmicos e empresariais para receber essa diversidade de estudantes. A diversidade também é importante para as empresas, as companhias com maior diversidade de gênero têm 21% mais chances de apresentar resultados acima da média do mercado do que as empresas com menor diversidade do grupo. <br> Sobre a minha experiência com o #TeuFuturo: Eu participei do #TeuFuturo no ano de 2018, e durante o programa, muito além do técnico pude desenvolver habilidades humanas: comunicação, empatia, liderança, tudo isso em conjunto com a imersão no dia a dia do profissional de TI, que o #TeuFuturo possibilitou, através de visitas a empresas, eventos acadêmicos e projetos práticos. Todos estes aspectos foram essenciais para meu desenvolvimento profissional. <br> Além disso, foi em um evento disponibilizado pelo #TeuFuturo com a IMED e empresas parceiras, que tive meu primeiro contato com o mercado de trabalho, e, posteriormente iniciei minha carreira em uma das empresas participantes do evento. Também foi graças ao programa que consegui ingressar na graduação através de uma bolsa parcial."</span></p>
+
                         <p class="depoimento-nome">- Isaura Koch</p>
+        
+                      <button onclick="leiaMais1()" id="btnLeiaMais1">Leia Mais</button>
+                    </li>
+                    <li>
+                       <p class="depoimento-descricao">"O #TeuFuturo é um lugar incrível aonde podemos nos desenvolver e aprender, mas o melhor de tudo,<span id = "pontos2">...</span><span id = "mais2"> nos divertimos muito enquanto fazemos isso. É um momento de união em busca de um objetivo em comum, e nisso entra o #TeuFuturo delas, que nos possibilita unir ainda mais as gurias nessa incrível área da programação. Todos juntos nessa luta é o mais importante"</span></p>
+                       <p class="depoimento-nome">- Eduarda Donadel</p>
+
+                       <button onclick="leiaMais2()" id="btnLeiaMais2">Leia Mais</button>
+                    </li>
+                   
+                    <li>
+                       <p class="depoimento-descricao">"O #TeuFuturo Delas pra mim é um projeto incrível pois proporciona<span id = "pontos3">...</span><span id = "mais3"> um espaço saudável de empoderamento e troca de experiências entre mulheres. Além de incentivar e encorajar as estudantes do #TeuFuturo a seguirem na carreira de computação e apoiarem para que elas continuem. Precisamos de mais projetos como esse, que transformem, de alguma forma, toda essa desigualdade existente nesse universo."</span></p>
+                       <p class="depoimento-nome">- Julianne Martins</p>
+
+                       <button onclick="leiaMais3()" id="btnLeiaMais3">Leia Mais</button>
                     </li>
             </section>
 
-            <section>
-                <h2 class="programadores">Conheça a equipe do site:</h2>
+            <main id="programadores">
+                        <ul class="programadores"><font size=+3>Conheça a equipe do site:</font>
 
-                <img src="bruna.jpeg" class="foto-time" alt="Foto de Bruna H Sena Pereira">
-                <p class="time-nome">Bruna Hundtermaker Sena Pereira</p>
-                <p class="time-contato">brunasena6a@gmail.com</p>
+                            <br>
+                            <br>
 
-                <img src="thales.jpeg" class="foto-time" alt="Foto de Thales Dias Prudêncio">
-                <p class="time-nome">Thales Dias Prudêncio</p>
-                <p class="time-contato">thalesdias36291@gmail.com</p>
 
-                <img src="laura.jpeg" class="foto-time" alt="Foto de Laura Mesquita Bruel">
-                <p class="time-nome">Laura Mesquita Bruel</p>
-                <p class="time-contato">lauramesquitabruel123@gmail.com</p>
+                            <li> 
+                                
+                                <h4 class =nome> Bruna Hundtermaker</h4>
+                                
+                                <img src="bruna.jpeg" class="foto-time" alt="Foto de Bruna H Sena Pereira">
 
-                <img src="natalie.jpeg" class="foto-time" alt="Foto de Natalie dos Santos Lopes">
-                <p class="time-nome">Natalie dos Santos Lopes</p>
-                <p class="time-contato">nataliedossantoslopes@gmail.com</p>
+                                <p class="time-contato"><font color="pink">Email:</font>brunasena6a@gmail.com</p>
+                                
+                           </li>
+                           <li> 
+                                <h4 class =nome>Emellyn Rosa Da Silva</h4>
+                                
+                                <img src="emellyn.jpg" class="foto-time" alt="Foto de Emellyn Rosa Da Silva">
 
-                <img src="marina.jpeg" class="foto-time" alt="Foto de Marina Rael Marques">
-                <p class="time-nome">Marina Rael Marques</p>
-                <p class="time-contato">marina.raelmarques@gmail.com</p>
-            </section>
+                                <p class="time-contato"><font color="pink">Email:</font>emellynrosa2003@gmail.com</p>
+                                
+                           </li>
+                           <li>
 
-            <form>
+                                <h4 class =nome>Laura Mesquita Bruel</h4>
+                                
+                                <img src="laura.jpeg" class="foto-time" alt="Foto de Laura Mesquita Bruel">
+
+                                <p class="time-contato"><font color="pink">Email:</font>lauramesquitabruel123@gmail.com</p>
+                                
+                           </li>
+                           <li> 
+                                <h4 class= nome>Marina Rael Marques</h4>
+                                
+                                <img src="marina.jpeg" class="foto-time" alt="Foto de Marina Rael Marques">
+
+                                <p class="time-contato"><font color="pink">Email:</font>marina.raelmarques@gmail.com</p>
+                                
+                           </li>
+                            <li>
+                                <h4 class= nome>Natalie dos Santos Lopes</h4>
+                                
+                                <img src="natalie.jpeg" class="foto-time" alt="Foto de Natalie dos Santos Lopes">
+
+                                <p class="time-contato"><font color="pink">Email:</font>nataliedossantoslopes@gmail.com</p>
+                                
+                           </li>
+                           <li>
+                                
+                                <h4 class=nome>Thales Dias Prudêncio</h4>
+                                
+                                <img src="thales.jpeg" class="foto-time" alt="Foto de Thales Dias Prudêncio">
+
+                                 <p class="time-contato"><font color="pink">Email:</font>thalesdias36291@gmail.com</p>
+                               
+                           </li>                            
+                        </ul>
+            </main>
+
+            <form  id="formulario">
 
                 <h2 class="formulario">Gostaria de ajudar?</h2>
                 
