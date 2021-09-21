@@ -1,15 +1,11 @@
 body{
     font-family: 'Ubuntu', sans-serif;
-    
 }
 
 header {
     background: #5F56AF;
     padding: 10px 0 10px 0;
-    
 }
-
-
 
 p{
     font-size: 22px;
@@ -22,39 +18,45 @@ html{
     scroll-behavior: smooth;
 }
 
+
+ /* nav {  O href não funciona quando o texto do cabeçalho é posicionado 
+ position: relative;
+ top: 340px;
+ left: 450px;
+} */
+
+
 nav ul { 
- left: 0;             
- right:0;            
- position:fixed;
- overflow-y:hidden; 
- overflow-x:auto;
- display: flex;
- margin: -10px 0 0 ;
- background-color:  #5F56AF; 
+ display: inline-flex;
+ 
 }
 
+
 nav ul li a{ 
- text-shadow: 4px 4px 10px black;
- padding: 0 30px 20px 6px;
+ padding-bottom:15px ;
+ padding-top: 15px;  
+ margin: 15px;
  text-decoration: none;
  color: #FFFFFF;
- font-size: 30px;
+ font-size: 15px;
  font-weight: bold;
- font-style: italic;
- }
+    
+}
+
+
 
 section{
     padding-top: 3rem;
 }
 
 .cabecalho {
+
+    position: relative;
     width: 940px;
     margin: 0 auto;
 }
 
 h1 {
-    
-    text-shadow: 4px 4px 10px black;
     font-style: italic;
     display: inline-block;
     text-align: center;
@@ -71,52 +73,45 @@ main {
 }
 
 .surgimos{
- text-shadow: 4px 4px 2px black;
- margin: 0 10%;
- font-size: 45px;
- font-weight: bolder;
- color: #FF69B4;
+    position: absolute;
+    top: 450px;
+    left: 155px;
+    font-size: 45px;
+    font-weight: bolder;
+    color: #FF69B4;
 }
 
 .participacao{
-
  font-weight: bolder;
- margin: 8% 0 0 55%;
+ position: absolute;
+ top: 1640px;
+ left: 700px;
  font-style: italic;
+ 
  display: inline-block; 
  float: right;
 }
 
 
 .h2-equipe{
- text-shadow: 4px 4px 2px black;
- margin: 0 1% ;
+
  left: 280px;
  font-size: 45px;
  font-weight: bold;
  text-align: left;
  color: #FF69B4;
-
+ margin: 10px;
 
 }
 
 
 .formulario, .depoimentos-titulo{
-    text-shadow: 4px 4px 2px black;
     font-size: 45px;
     font-weight: bold;
     text-align: left;
     color: #FF69B4;
     margin: 10px;
 }
-
-#mais{display: none}
-
-#mais1{display: none}
-
-#mais2{display: none}
-
-#mais3{display: none}
 
 .teufuturoimagem{
     float: right;
@@ -141,12 +136,10 @@ iframe{
 }
 
 
- .depoimentos-titulo{
-  text-shadow: 4px 4px 2px black;
-    margin: 0 19%;
-    padding-top: 2rem;
-    position: center;
-    
+.depoimentos-titulo{
+    position: absolute;
+    top: 1900px;
+    left: 280px;
 }
 
 .depoimentos{
@@ -164,14 +157,8 @@ iframe{
     box-sizing: border-box;
     border: 2px solid #000000;
     border-radius: 10px;
-    margin: 35px 15px;
+    margin: 20px 15px;
     background-color: #5F56AF;
-}
-
-button{
-    
-    font-weight: bolder;
-    color: #FF69B4;
 }
 
 .depoimento-nome{
@@ -206,7 +193,6 @@ button{
 }
 
 .formulario{
-    padding-top: 2rem;
     margin: 20px;
 }
 
@@ -291,7 +277,6 @@ footer {
 }
 
 .nome {
-    text-shadow: 4px 4px 20px black;
     text-align: center;
     font-size: 25px;
     font-weight: bold;
