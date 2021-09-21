@@ -287,7 +287,7 @@ footer {
 
 .time-contato {
   font-size: 20px;
-    text-align: center;
+  text-align: center;
 }
 
 .nome {
@@ -297,3 +297,20 @@ footer {
     font-weight: bold;
     color: #FF69B4;
 }
+
+@media screen and (max-width: 480px) {
+
+   .depoimento-descricao , .depoimento-nome{
+    font-size: 25px;
+   }
+
+  .leiaMais , .time-contato , .input-padrao{
+    font-size: 25px;
+   }
+
+  .h2-equipe {
+    text-align: center;
+  }
+  p , .porque{
+    font-size: 25px;
+  }
