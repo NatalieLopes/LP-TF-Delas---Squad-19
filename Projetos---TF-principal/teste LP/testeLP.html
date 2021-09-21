@@ -2,38 +2,10 @@
 <meta charset="UTF-8">
 
 <link rel="stylesheet" href="testeLP.css">
-<link rel="stylesheet" href="reset.css">
 
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 
-<script>
-    var_alturaDocumento = $(window).height();
 
-    function alturaSecao() {
-        $(".secao").height(_alturaDocumento);
-    }
-
-    $(alturaSecao);
-
-    function scrollSecao(){
-        if($(this).parent(".secao").is("#secao-01")) { 
-
-        $("body").animate({scrollTop: _alturaJanela}, '500');
-    } else if ($(this).parent(".secao").is("#secao-02")) {
-
-        $("body").animate({scrollTop: _alturaJanela*2}, '500');
-    } else if ($(this).parent(".secao").is("$secao-03")) {
-
-        $("body").animate({scrollTop: _alturaJanela*3}, '500');
-    } else {    
-        
-        $("body").animate({scrollTop: 0}, '80O');
-    }
-}
-
-$(".icone-scrol1").click(ScrollSecao);   
-
-</script>
 
 
 
@@ -44,7 +16,7 @@ $(".icone-scrol1").click(ScrollSecao);
                                     
                 <img src="bruna.jpeg" class="foto-time" alt="Foto de Bruna H Sena Pereira">
 
-                <p class="time-contato">Email: brunasena6a@gmail.com</p>
+                <p class="time-contato"><font color="pink">Email:</font>brunasena6a@gmail.com</p>
                                     
             </li>
             <li class="squad"> 
@@ -88,37 +60,5 @@ $(".icone-scrol1").click(ScrollSecao);
                                 
             </li>
     </section>
-    <section class='scroll-equipe'> 
-        <li class="equipe">                         
-            <h4 class =nome>Hairlaine Treici Freitas</h4>
-                                
-            <img src="treici.jpg" class="foto-equipe" alt="Foto de Hairlaine Treici Freitas">
-
-            <p class="time-contato">Posição: Articuladora do Teu Futuro <br><br> Email: hairlaine.freitas@imed.edu.br</p>
-                                
-        </li>
-        <li class="equipe"> 
-                <h4 class =nome>Amilton Martins</h4>
-                                
-                <img src="amilton.jpg" class="foto-equipe" alt="Foto de Amilton Martins">
-
-                <p class="time-contato">Posição: Coordenador do Teu Futuro <br><br> Email: amilton.martins@imed.edu.br</p>
-                                
-        </li>
-        <li class="equipe">
-
-                <h4 class =nome>Afonso Celso Dutra Acuan Filho</h4>
-                                
-                <img src="afonso.jpg" class="foto-equipe" alt="Afonso Celso Dutra Acuan Filho">
-
-                <p class="time-contato">Posição: Sócio-diretor da Yaman <br><br> Email: afonso.acuan@yaman.com.br</p>               
-        </li>
-        <li class="equipe"> 
-                <h4 class= nome>Isaura Koch</h4>
-                                
-                <img src="isaura.jpg" class="foto-equipe" alt="Foto de Isaura Koch">
-
-                <p class="time-contato">Posição: Embaixadora do Teu Futuro <br><br> Email: koch.isaura@gmail.com</p>                    
-        </li>
-    </section>                   
+                     
 </body>

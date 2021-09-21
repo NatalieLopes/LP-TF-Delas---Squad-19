@@ -30,7 +30,9 @@
 }
 
 .slider label {
-    background-color:  #5F56AF;;
+    color: purple;
+    background:#5F56AF;
+    margin: auto;
     bottom: 10px;
     cursor: auto;
     display: block;
@@ -39,6 +41,7 @@
     width: 10px;
     z-index: 10;
 }
+
 
 .slider li:nth-child(1) label {
     left: 20px;
