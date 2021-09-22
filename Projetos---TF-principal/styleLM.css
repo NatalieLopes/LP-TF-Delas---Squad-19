@@ -1,0 +1,22 @@
+.leiamais{
+ color: black;
+ background: white;
+ margin: auto;
+ border: none;
+ border-radius: 5px;
+ 
+
+}
+
+#mais{display: none}
+
+#mais1{display: none}
+
+#mais2{display: none}
+
+#mais3{display: none}
+
+.leiamais:hover {
+
+ color: #f6d000; 
+ background: #fff; }

@@ -1,0 +1,64 @@
+.squad{
+    display: inline-block; 
+}
+
+.scroll{
+    padding: 10px -10px 70px 60px;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 520px;
+    white-space: nowrap;
+    text-align: left;  
+    margin-top: 10px;
+    margin-left: 10px;  
+}
+
+.foto-time1 {
+    width: 200px;
+    height: 385px;
+    margin: 0 0 0 45px;
+}
+
+.foto-time2 {
+    width: 200px;
+    height: 385px;
+    margin: 0 0 0 60px;
+
+}
+
+.foto-time3 {
+    width: 220px;
+    height: 385px;
+    margin: 0 0 0 90px;
+
+}
+
+.foto-time4 {
+    width: 220px;
+    height: 385px;
+    margin: 0 0 0 75px;
+
+}
+
+.foto-time5 {
+    width: 200px;
+    height: 385px;
+    margin: 0 0 0 90px;
+
+}
+
+.foto-time6 {
+    width: 200px;
+    height: 385px;
+    margin: 0 0 0 60px;
+
+}
+
+
+
+.time-contato {
+  font-size: 20px;
+    text-align: center;
+}
+
