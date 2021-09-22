@@ -298,32 +298,4 @@ footer {
     margin: 20px 0 0;
 }
 
-@media screen and (max-width: 480px) {
-  
-  p , .porque {
-    font-size: 25px;
-  }
-   li {
-    width: 270%;
-   }
-   
- .depoimento-descricao , .depoimento-nome{
-    font-size: 25px;
-   }
-
-   .squad{
-    width: 50%;
-   }
-   p.time-contato{
-    font-size: 26px;
-   }
-
-  .leiamais , .input-padrao{
-    font-size: 25px;
-   }
-
-  .h2-equipe {
-    text-align: center;
-  }
-  
 
