@@ -1,10 +1,7 @@
 .leiamais{
- color: black;
- background: white;
- margin: auto;
- border: none;
- border-radius: 5px;
- 
+ color: purple;
+ background: #d9d2e9;
+ margin: auto; 
 
 }
 
@@ -18,5 +15,5 @@
 
 .leiamais:hover {
 
- color: #f6d000; 
+ color: #998fb1; 
  background: #fff; }

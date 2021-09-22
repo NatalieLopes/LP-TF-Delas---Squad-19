@@ -1,3 +1,6 @@
+
+{ margin: 0; padding: 0; }
+
 .slider {
     display: block;
     height: 310px;
@@ -28,14 +31,14 @@
 
 .slider label {
     color: purple;
-    background:#5f56af;
+    background:#5F56AF;
     margin: auto;
     bottom: 10px;
     cursor: auto;
     display: block;
-    height: 13px;
+    height: 10px;
     position: absolute;
-    width: 13px;
+    width: 10px;
     z-index: 10;
 }
 
